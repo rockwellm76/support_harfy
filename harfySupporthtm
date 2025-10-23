@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harfy - Quran Memorization Support</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            padding: 40px 0;
+            color: white;
+        }
+        
+        .logo {
+            width: 80px;
+            height: 80px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            font-size: 40px;
+            font-weight: bold;
+        }
+        
+        h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 18px;
+            opacity: 0.9;
+        }
+        
+        .content {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            margin-top: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        
+        .section {
+            margin-bottom: 40px;
+        }
+        
+        .section h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        
+        .faq-item {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .faq-item h3 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        
+        .faq-item p {
+            color: #666;
+            line-height: 1.6;
+        }
+        
+        .contact-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+        }
+        
+        .contact-box h3 {
+            margin-bottom: 15px;
+            font-size: 22px;
+        }
+        
+        .contact-box a {
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        
+        .button {
+            display: inline-block;
+            background: white;
+            color: #667eea;
+            padding: 12px 30px;
+            border-radius: 25px;
+            text-decoration: none;
+            margin-top: 15px;
+            font-weight: 600;
+            transition: transform 0.2s;
+        }
+        
+        .button:hover {
+            transform: scale(1.05);
+        }
+        
+        .links {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 1px solid #eee;
+            text-align: center;
+        }
+        
+        .links a {
+            color: #667eea;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 500;
+        }
+        
+        .links a:hover {
+            text-decoration: underline;
+        }
+        
+        .troubleshooting {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        
+        .troubleshooting ul {
+            margin-left: 20px;
+            color: #666;
+            line-height: 1.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">ح</div>
+            <h1>Harfy Support</h1>
+            <p class="subtitle">Quran Learning & Memorization App</p>
+        </div>
+        
+        <div class="content">
+            <div class="section">
+                <h2>How Can We Help You?</h2>
+                <p>Welcome to Harfy support. We're here to help you with your Quran learning journey.</p>
+            </div>
+            
+            <div class="section">
+                <h2>Frequently Asked Questions</h2>
+                
+                <div class="faq-item">
+                    <h3>How do I start learning?</h3>
+                    <p>After signing up, you'll receive a 7-day free trial. Simply select a Surah from the list, choose a verse, and begin your interactive learning session with word-by-word translation and practice.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>What's included in the free trial?</h3>
+                    <p>Your 7-day free trial includes full access to all features: word-by-word learning, interactive practice sessions, progress tracking, and all 114 Surahs of the Quran.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>How does the subscription work?</h3>
+                    <p>After your free trial, you can choose between monthly ($9.99/month) or yearly ($59.99/year) subscriptions. You can manage or cancel your subscription anytime through your device's Settings app.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>How can I track my progress?</h3>
+                    <p>Your progress is automatically tracked for each verse you practice. Green indicates mastered verses (80%+ accuracy), blue for good progress (60-80%), and yellow for verses that need more practice.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Can I practice offline?</h3>
+                    <p>Yes! Once verses are loaded, you can practice offline. Your progress will sync when you reconnect to the internet.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>How do I restore my purchase?</h3>
+                    <p>If you've already subscribed, tap "Restore Purchases" on the subscription screen to restore your access.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>How do I cancel my subscription?</h3>
+                    <p>You can cancel anytime through your device settings: Settings > [Your Name] > Subscriptions > Harfy > Cancel Subscription.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>How do I delete my account?</h3>
+                    <p>You can delete your account from within the app: Settings > Account > Delete Account. This will permanently remove all your data and progress.</p>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>Troubleshooting</h2>
+                <div class="troubleshooting">
+                    <p><strong>App not loading properly?</strong></p>
+                    <ul>
+                        <li>Check your internet connection</li>
+                        <li>Force quit and restart the app</li>
+                        <li>Update to the latest version from the App Store</li>
+                        <li>Try signing out and signing back in</li>
+                    </ul>
+                    
+                    <p style="margin-top: 20px;"><strong>Subscription issues?</strong></p>
+                    <ul>
+                        <li>Ensure you're signed into the correct Apple ID</li>
+                        <li>Check your subscription status in Settings</li>
+                        <li>Try "Restore Purchases" in the app</li>
+                        <li>Contact us if the problem persists</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="section">
+                <div class="contact-box">
+                    <h3>Still Need Help?</h3>
+                    <p>Our support team is here to assist you</p>
+                    <p style="margin-top: 20px;">Email us at:</p>
+                    <a href="mailto:support@harfyapp.com">support@harfyapp.com</a>
+                    <br>
+                    <a href="mailto:support@harfyapp.com" class="button">Send Email</a>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>App Information</h2>
+                <p><strong>Version:</strong> 1.0.0</p>
+                <p><strong>Developer:</strong> Harfy Team</p>
+                <p><strong>Platform:</strong> iOS (iPhone & iPad)</p>
+                <p><strong>Languages:</strong> English, Arabic</p>
+            </div>
+            
+            <div class="links">
+                <a href="https://doc-hosting.flycricket.io/harfy-quran-memorization-privacy-policy/8e741527-8e18-4c5a-8e9d-5cf115471c4d/privacy">Privacy Policy</a>
+                <a href="https://doc-hosting.flycricket.io/harfy-quran-memorization-terms-of-use/1edd61b2-e286-45a4-b4db-2c708656618f/terms">Terms of Use</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
